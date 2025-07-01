@@ -2,7 +2,9 @@
 .color {
     color: rgba(114, 114, 114, 1);
 }
-
+.bolder{
+    font-weight: bolder;
+}
 .color-2 {
     color: rgba(66, 66, 66, 1);
 }
@@ -112,4 +114,69 @@ header {
 .border {
     border-left: 7px solid rgba(255, 144, 14, 1);
     padding-left: 2%;
+}
+
+.box {
+    width: 100px;
+    height: 50px;
+    background-color: rgba(255, 144, 14, 1);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 2px;
+    margin-left: -12%;
+}
+
+.box-text {
+    margin-top: -30px;
+}
+
+.box h1 {
+    font-size: 2rem;
+}
+
+.box h4 {
+    margin-top: -25px;
+}
+
+.part-3 {
+    margin-top: 10%;
+    margin-left: 7%;
+}
+.part-3-card-container{
+    display: flex;
+    gap: 5%;
+    max-width: 80%;
+    margin: 5% auto;
+}
+.card {
+    border: 1px solid rgba(255, 144, 14, 1);
+    width: 25%;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+}
+.card img{
+    margin-top: 15%;
+}
+.card-text{
+    margin-top: -10%;
+}
+.card-text p{
+    margin-top: -12%;
+}
+
+.part-4-img{
+    max-width:85%;
+    margin: 0px auto;
+    display: flex;
+    gap: 5%;
+    margin-bottom:10%;
+}
+.footer-container{
+    max-width:85%;
+    margin: 0px auto;
+    margin-bottom:10%;
+    background-color: rgba(255, 244, 231, 1);
+    text-align: center;
+    padding: 20px 0px;
 }
